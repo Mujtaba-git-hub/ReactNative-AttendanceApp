@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "attendance1.0",
+    "slug": "attendance1.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.jpg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.jpg",
+        "backgroundColor": "#143145"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/logo.jpg"
+    },
+    "splash": {
+      "image": "./assets/logo.jpg",
+      "resizeMode": "contain",
+      "width": 700,
+    "height": 700,
+      "backgroundColor": "#143145"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/logo.jpg",
+          "resizeMode": "contain",
+          "backgroundColor": "#143145"
+          
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
